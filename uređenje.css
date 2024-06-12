@@ -1,0 +1,93 @@
+h1  {
+    color: #6e0f1f;
+    font-size: 50px;
+     font-weight: 100;
+    font-style: oblique;
+    border: 3px solid rgb(128, 15, 34);
+    border-radius: 5px;
+    border-style: dashed;
+    
+}
+.font h1 {
+    font-family: "KarlaRadibratovic";
+}
+
+@font-face{
+    font-family:"Dokumenti/KarlaRadibratovic.ttf" ;
+    src: url("Dokumenti/KarlaRadibratovic.ttf");
+}
+body{
+    background-color: rgb(146, 146, 105);
+}
+video {
+    height: 200px;
+    width: 200px;
+}
+h2 {
+    color: rgb(133, 19, 38);
+    font-weight: 100;
+}
+ p {
+    font-family: 'Courier New', Courier, monospace;
+    
+ }
+ h3{
+    font-family: 'Courier New', Courier, monospace;
+
+ }
+ body {
+    background-image: url(Fotografije/pozadina.jpg);
+ }
+ h5 {
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: antiquewhite;
+ }
+nav {
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #da8492;
+    border: #6e0f1f 1px solid;
+    border-radius: 15px;
+    text-align: center;
+    border-width: 2px;
+}
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #7f1818;
+;
+}
+
+.nav li {
+    float: left;
+}
+
+.nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav li a:hover {
+    background-color: #3693cd;
+}
+
+.o_meni{
+    position: relative
+    ;
+    margin-top: 10%;
+    text-align: center;
+}
+
+p {
+    border: 1px solid  #6e0f1f;
+    border-radius: 8px;
+line-height: 2pc;
+}
